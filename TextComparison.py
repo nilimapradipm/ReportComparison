@@ -82,15 +82,13 @@ for  item1 in folder1:
 
            size1 = os.path.getsize(outputfile1)
            size2 = os.path.getsize(outputfile2)
-           #print(outputfile1)
-           #(size1/1000)
-           #print(size2/1000)
+
            end_time1 = time.time()
            TimeTaken = (end_time1 - start_time1)
            TimeTaken = (end_time1 - start_time1)
 
-           DataString = '\n' + '<tr>' + '<td>' + '<a' + ' href = ' + "http://localhost:63342/pythonProject/txt/CompareResults/" + os.path.splitext(item1)[0] + "_overall_diff" +  ".html" + '>' + os.path.splitext(item1)[
-                            0] + "_overall_diff" + '</a>' + '</td>' + '<td>' + '<a' + ' href = ' + "http://localhost:63342/pythonProject/txt/CompareResults/" +  os.path.splitext(item1)[0] + "_context_diff" + ".html" + '>' + os.path.splitext(item1)[
+           DataString = '\n' + '<tr>' + '<td>' + '<a' + ' href = ' + "http://localhost:63342/ReportComparison/txt/CompareResults/" + os.path.splitext(item1)[0] + "_overall_diff" +  ".html" + '>' + os.path.splitext(item1)[
+                            0] + "_overall_diff" + '</a>' + '</td>' + '<td>' + '<a' + ' href = ' + "http://localhost:63342/ReportComparison/txt/CompareResults/" +  os.path.splitext(item1)[0] + "_context_diff" + ".html" + '>' + os.path.splitext(item1)[
                             0] + "_context_diff" + '</a>' + '</td>' + '<td>' + str(size1 / 1000) + ' vs ' + str(
                size2 / 1000) + ' KB' + '</td>' + '<td>' + str(
                round(TimeTaken, 4)) + ' sec' + '</td>' + '<td>' + status + '</td>' + '</tr>'
