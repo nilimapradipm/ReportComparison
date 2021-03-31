@@ -1,18 +1,10 @@
-Kindly find the installation steps and system requirements for the Text Compariosn tool.
 
+Kindly find the installation steps and system requirements for the Text Compariosn tool.
+ 
 System Requirements:
 1.      Windows Machine with minimum of 4 GB RAM/i3 Processor/500 GB HDD
 2.      Python 3.8 +
-
-Python 3.8.8 installation Instruction :
-1. https://www.python.org/downloads/release/python-388/ - Open this link
- Click on Windows Installer (64-bit) option (Recommended for windows) as shown below
-Note : it will download exe file to be installed
-
 3.      Python Editor – Intellij Idea PyCharm
-https://www.jetbrains.com/pycharm/download/#section=windows - Open this Link
-Click on Community Version Download Link
-Note : it will download exe file to be installed
 
 Installation Steps:
 1.      To check if your device is pre-installed with Python or not, just go to the Command line(search for cmd in the Run dialog( + R). Run the following command: python --version. If Python is already installed, it will generate a message with the Python version available.
@@ -36,6 +28,8 @@ time
 difflib
 sys
 os
+
+
 
 
 
