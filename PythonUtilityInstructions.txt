@@ -25,13 +25,7 @@ Follow below steps to achieve offline setup:
 1.	Create a virtual environment in destination folder
 python -m venv <Virtual environment Name>
 2.	Copy all the folders from venv site-package folder  
-
-
-
 3.	Paste all the copied folders in site-package folder of new virtual environment
-
- 
-
 4.	Activate the virtual environment by using below command
 Scripts\activate
 
