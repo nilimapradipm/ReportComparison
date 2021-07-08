@@ -17,29 +17,23 @@ Note : it will download exe file to be installed
 Installation Steps:
 1.      To check if your device is pre-installed with Python or not, just go to the Command line(search for cmd in the Run dialog( + R). Run the following command: python --version. If Python is already installed, it will generate a message with the Python version available.
 
-2.      Using pip (need to be installed. Refer here ->https://pip.pypa.io/en/stable/installing/)
+Pre-Requisite:
+•	Python 3.8.8
+•	ReportComparison code should be available in the local environment
 
-        PIP is a package management system used to install and manage software packages/libraries written in Python. These files are stored in a large “on-line repository” termed as Python Package Index (PyPI).
-
-3.     List of all the libraries required
-import sys, os, time
-import difflib
-import hashlib
-import datetime
-
- To import  library all you have to do is add using pip
-•         pip install datetime
-
-Below Std library (not required to be installed using pip as its inbuilt with python 3.8)
-hashlib
-time
-difflib
-sys
-os
+Follow below steps to achieve offline setup:
+1.	Create a virtual environment in destination folder
+python -m venv <Virtual environment Name>
+2.	Copy all the folders from venv site-package folder  
 
 
 
+3.	Paste all the copied folders in site-package folder of new virtual environment
 
+ 
+
+4.	Activate the virtual environment by using below command
+Scripts\activate
 
 
 
